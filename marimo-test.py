@@ -20,7 +20,14 @@ def _():
 
 
 @app.cell
-def _():
+def _(mo):
+    mo.md(
+        r"""
+    # The story so far
+
+    I have been using Jupyter notebooks for many years. But in the last month or two, I've started to use Marimo instead. And I have to say, I love it!
+    """
+    )
     return
 
 

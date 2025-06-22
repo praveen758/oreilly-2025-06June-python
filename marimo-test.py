@@ -20,6 +20,11 @@ def _():
 
 
 @app.cell
+def _():
+    return
+
+
+@app.cell
 def _(Series, mo, np):
     np.random.seed(0)
     s = Series(np.random.randint(0, 100, 10),

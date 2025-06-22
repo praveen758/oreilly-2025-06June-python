@@ -74,6 +74,12 @@ def _(color, name, s, threshold):
 
 @app.cell
 def _():
+    print('Hello!')
+    return
+
+
+@app.cell
+def _():
     return
 
 

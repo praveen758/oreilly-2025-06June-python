@@ -4,3 +4,5 @@ def menu(choices):
     
         if s in choices:
             return s
+
+        print(f'{s} is not a valid choice')
